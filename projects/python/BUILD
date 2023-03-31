@@ -1,7 +1,7 @@
 py_binary(
     name = "calculator",
     srcs = ["calculator.py"],
-    #visibility = ""
+    visibility = ["//visibility:public"]
 )
 
 py_test(
